@@ -139,16 +139,17 @@ height: 56px;
 /* about */
 
 .about {
-    border-radius: 20px;
-background: #F6D6DE;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-max-width: 360px;
-justify-self: center;
-margin-bottom: 30px;
-padding: 20px;
-    margin-left: auto;
-margin-right: auto;
+  display: block;               /* гарантує, що auto працює */
+  width: 100%;                  /* розтягується на всю ширину */
+  max-width: 360px;             /* не більше */
+  margin: 0 auto 30px auto;     /* по центру + відступ знизу */
+  padding: 20px;
+  background: #F6D6DE;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
 }
+
 
 
 .aboutMainTex {
