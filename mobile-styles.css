@@ -139,11 +139,9 @@ height: 56px;
 /* about */
 
 .about {
-  display: block;
   max-width: 360px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+margin:auto;
   margin-bottom: 30px;
   padding: 20px;
   background: #F6D6DE;
