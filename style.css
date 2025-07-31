@@ -67,7 +67,7 @@ html, body {
 
 .hero {
     display: flex;
-  background-image: url("./img/HeroBG.png");
+  background-image: url("./img/heroBG.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   height: 100vh;
